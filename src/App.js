@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Banner image="home"/>
 
-      {/* colocou os filhos dentro das tags (componente com os parametros) */}
+      {/* colocou os filhos dentro das tags (componente com os parametros) teste*/}
       <Container>
       <h2>Séries</h2>
 
