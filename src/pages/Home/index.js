@@ -16,7 +16,7 @@ function Home() {
     setNome(event.target.value)
   }
 
-  // Hook = gancho -> useState (usou ele para criar um estado - nome e dps mudar o estado - setNome)
+  //Hook = gancho -> useState (usou ele para criar um estado - nome e dps mudar o estado - setNome)
   const [ nome, setNome ] = useState()
 
   return (
