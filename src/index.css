@@ -30,11 +30,3 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;          /* arredondar o scroll (thumb) */
     border: 3px solid #222;     /* criar um espaco em volta do scroll */
 }
-
-
-.cards{
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
