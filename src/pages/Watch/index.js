@@ -5,6 +5,7 @@ import styles from "./Watch.module.css";
 import { useParams } from "react-router-dom";
 import videos from "../../json/videos.json";
 import PageNotFound from "../PageNotFound";
+import ScrollToButton from "../../components/ScrollToButton";
 
 function Watch() {
     // pega parametros e coloca na variavel, busca na listagem
@@ -15,6 +16,7 @@ function Watch() {
 
     return (
         <>
+            <ScrollToButton/>
             <Header/>
             <Container>
                 <section className={styles.watch}>

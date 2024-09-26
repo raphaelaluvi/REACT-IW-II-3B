@@ -4,10 +4,13 @@ import Footer from "../../components/Footer";
 import SearchVideoList from "../../components/SearchVideoList";
 import Container from "../../components/Container";
 import videos from "../../json/videos.json";
+import ScrollToButton from "../../components/ScrollToButton";
+
 
 function Search() {
     return (
         <>
+            <ScrollToButton/>
             <Header/>
 
             <Container>

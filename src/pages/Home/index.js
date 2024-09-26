@@ -5,11 +5,13 @@ import Category, { categories, filterCategory } from "../../components/Category"
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import ScrollToButton from "../../components/ScrollToButton";
 
 function Home() {
 
   return (
     <>
+      <ScrollToButton/>
       <Header />
       <Banner image="home" />
 
