@@ -15,7 +15,7 @@ code {
     monospace;
 }
 
-  /* formatacao da barra de rolagem */
+  /* formatacao da barra de rolagem teste */
 body::-webkit-scrollbar {
     width: 12px;                /* largura da barra de rolagem */
     background-color: #222;
